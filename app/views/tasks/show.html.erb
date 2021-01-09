@@ -1,0 +1,4 @@
+<h1><%= @task.title %> - (<%= link_to 'Edit', edit_path %>)</h1>
+<p><%= @task.details %></p>
+<p><%= @task.completed ? '[x] - Completed' : '[ ] - Not completed' %></p>
+<p><%= link_to 'List all tasks', tasks_path %></p>
